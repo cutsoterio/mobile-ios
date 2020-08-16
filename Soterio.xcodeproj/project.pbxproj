@@ -15,6 +15,8 @@
 		1FD70B8224E921A900FD0AFC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1FD70B8024E921A900FD0AFC /* LaunchScreen.storyboard */; };
 		1FD70B8D24E921AA00FD0AFC /* SoterioTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FD70B8C24E921AA00FD0AFC /* SoterioTests.swift */; };
 		1FD70B9824E921AA00FD0AFC /* SoterioUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FD70B9724E921AA00FD0AFC /* SoterioUITests.swift */; };
+		1FD70BA724E9220200FD0AFC /* OnBoardingCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FD70BA624E9220200FD0AFC /* OnBoardingCardView.swift */; };
+		1FD70BAA24E92AE500FD0AFC /* OnBoardingData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FD70BA924E92AE500FD0AFC /* OnBoardingData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		1FD70B9324E921AA00FD0AFC /* SoterioUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SoterioUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1FD70B9724E921AA00FD0AFC /* SoterioUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoterioUITests.swift; sourceTree = "<group>"; };
 		1FD70B9924E921AA00FD0AFC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1FD70BA624E9220200FD0AFC /* OnBoardingCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoardingCardView.swift; sourceTree = "<group>"; };
+		1FD70BA924E92AE500FD0AFC /* OnBoardingData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoardingData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +103,8 @@
 		1FD70B7424E921A400FD0AFC /* Soterio */ = {
 			isa = PBXGroup;
 			children = (
+				1FD70BA524E921BF00FD0AFC /* Views */,
+				1FD70BA824E92AA600FD0AFC /* Models */,
 				1FD70B7524E921A400FD0AFC /* AppDelegate.swift */,
 				1FD70B7724E921A400FD0AFC /* SceneDelegate.swift */,
 				1FD70B7924E921A400FD0AFC /* ContentView.swift */,
@@ -134,6 +140,22 @@
 				1FD70B9924E921AA00FD0AFC /* Info.plist */,
 			);
 			path = SoterioUITests;
+			sourceTree = "<group>";
+		};
+		1FD70BA524E921BF00FD0AFC /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				1FD70BA624E9220200FD0AFC /* OnBoardingCardView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		1FD70BA824E92AA600FD0AFC /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				1FD70BA924E92AE500FD0AFC /* OnBoardingData.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -268,8 +290,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				1FD70B7624E921A400FD0AFC /* AppDelegate.swift in Sources */,
+				1FD70BAA24E92AE500FD0AFC /* OnBoardingData.swift in Sources */,
 				1FD70B7824E921A400FD0AFC /* SceneDelegate.swift in Sources */,
 				1FD70B7A24E921A400FD0AFC /* ContentView.swift in Sources */,
+				1FD70BA724E9220200FD0AFC /* OnBoardingCardView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
