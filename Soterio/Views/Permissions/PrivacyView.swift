@@ -18,7 +18,7 @@ struct PrivacyView: View {
                 .multilineTextAlignment(.center)
                 .padding(8)
             HStack(){
-                Text("Data ollection")
+                Text("Data collection")
                 .fontWeight(.medium)
                 .multilineTextAlignment(.leading)
                 .padding(8)

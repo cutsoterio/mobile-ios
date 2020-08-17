@@ -7,14 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1F9C8DE624EAF0150074F5C8 /* Index.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F9C8DE524EAF0150074F5C8 /* Index.swift */; };
-		1F9C8DE824EAF0420074F5C8 /* Index.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F9C8DE724EAF0420074F5C8 /* Index.swift */; };
-		1F9C8DEA24EAF04B0074F5C8 /* Index.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F9C8DE924EAF04B0074F5C8 /* Index.swift */; };
-		1F9C8DEC24EAF0600074F5C8 /* Index.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F9C8DEB24EAF0600074F5C8 /* Index.swift */; };
-		1F9C8DEE24EAF0680074F5C8 /* Index.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F9C8DED24EAF0680074F5C8 /* Index.swift */; };
-		1F9C8DF024EAF0730074F5C8 /* Index.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F9C8DEF24EAF0730074F5C8 /* Index.swift */; };
-		1F9C8DF224EAF0810074F5C8 /* Index.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F9C8DF124EAF0810074F5C8 /* Index.swift */; };
-		1F9C8DF424EAF0890074F5C8 /* Index.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F9C8DF324EAF0890074F5C8 /* Index.swift */; };
+		1F90B05C24EB0AF50027A5E7 /* OnboardingMainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F90B05B24EB0AF50027A5E7 /* OnboardingMainView.swift */; };
+		1F9C8DE624EAF0150074F5C8 /* StorageIndex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F9C8DE524EAF0150074F5C8 /* StorageIndex.swift */; };
+		1F9C8DE824EAF0420074F5C8 /* AdaptersIndex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F9C8DE724EAF0420074F5C8 /* AdaptersIndex.swift */; };
+		1F9C8DEA24EAF04B0074F5C8 /* ClassesIndex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F9C8DE924EAF04B0074F5C8 /* ClassesIndex.swift */; };
+		1F9C8DEC24EAF0600074F5C8 /* EncountersIndex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F9C8DEB24EAF0600074F5C8 /* EncountersIndex.swift */; };
+		1F9C8DEE24EAF0680074F5C8 /* BLEIndex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F9C8DED24EAF0680074F5C8 /* BLEIndex.swift */; };
+		1F9C8DF024EAF0730074F5C8 /* RestIndex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F9C8DEF24EAF0730074F5C8 /* RestIndex.swift */; };
+		1F9C8DF224EAF0810074F5C8 /* WebsocketsIndex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F9C8DF124EAF0810074F5C8 /* WebsocketsIndex.swift */; };
+		1F9C8DF424EAF0890074F5C8 /* SyncIndex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F9C8DF324EAF0890074F5C8 /* SyncIndex.swift */; };
 		1FD70B7624E921A400FD0AFC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FD70B7524E921A400FD0AFC /* AppDelegate.swift */; };
 		1FD70B7824E921A400FD0AFC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FD70B7724E921A400FD0AFC /* SceneDelegate.swift */; };
 		1FD70B7A24E921A400FD0AFC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FD70B7924E921A400FD0AFC /* ContentView.swift */; };
@@ -49,14 +50,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		1F9C8DE524EAF0150074F5C8 /* Index.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Index.swift; sourceTree = "<group>"; };
-		1F9C8DE724EAF0420074F5C8 /* Index.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Index.swift; sourceTree = "<group>"; };
-		1F9C8DE924EAF04B0074F5C8 /* Index.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Index.swift; sourceTree = "<group>"; };
-		1F9C8DEB24EAF0600074F5C8 /* Index.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Index.swift; sourceTree = "<group>"; };
-		1F9C8DED24EAF0680074F5C8 /* Index.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Index.swift; sourceTree = "<group>"; };
-		1F9C8DEF24EAF0730074F5C8 /* Index.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Index.swift; sourceTree = "<group>"; };
-		1F9C8DF124EAF0810074F5C8 /* Index.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Index.swift; sourceTree = "<group>"; };
-		1F9C8DF324EAF0890074F5C8 /* Index.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Index.swift; sourceTree = "<group>"; };
+		1F90B05B24EB0AF50027A5E7 /* OnboardingMainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingMainView.swift; sourceTree = "<group>"; };
+		1F9C8DE524EAF0150074F5C8 /* StorageIndex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorageIndex.swift; sourceTree = "<group>"; };
+		1F9C8DE724EAF0420074F5C8 /* AdaptersIndex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdaptersIndex.swift; sourceTree = "<group>"; };
+		1F9C8DE924EAF04B0074F5C8 /* ClassesIndex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassesIndex.swift; sourceTree = "<group>"; };
+		1F9C8DEB24EAF0600074F5C8 /* EncountersIndex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EncountersIndex.swift; sourceTree = "<group>"; };
+		1F9C8DED24EAF0680074F5C8 /* BLEIndex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BLEIndex.swift; sourceTree = "<group>"; };
+		1F9C8DEF24EAF0730074F5C8 /* RestIndex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestIndex.swift; sourceTree = "<group>"; };
+		1F9C8DF124EAF0810074F5C8 /* WebsocketsIndex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebsocketsIndex.swift; sourceTree = "<group>"; };
+		1F9C8DF324EAF0890074F5C8 /* SyncIndex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SyncIndex.swift; sourceTree = "<group>"; };
 		1FD70B7224E921A400FD0AFC /* Soterio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Soterio.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1FD70B7524E921A400FD0AFC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1FD70B7724E921A400FD0AFC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -107,6 +109,8 @@
 		1F9C8DD324EAEED80074F5C8 /* OnBoarding */ = {
 			isa = PBXGroup;
 			children = (
+				1FD70BA624E9220200FD0AFC /* OnBoardingCardView.swift */,
+				1F90B05B24EB0AF50027A5E7 /* OnboardingMainView.swift */,
 			);
 			path = OnBoarding;
 			sourceTree = "<group>";
@@ -114,6 +118,8 @@
 		1F9C8DD424EAEEE80074F5C8 /* Authentication */ = {
 			isa = PBXGroup;
 			children = (
+				1FD70BAD24EAAC7B00FD0AFC /* GetPhoneCardView.swift */,
+				1FD70BAF24EABA8700FD0AFC /* VerifyPhoneNumberCardView.swift */,
 			);
 			path = Authentication;
 			sourceTree = "<group>";
@@ -121,6 +127,7 @@
 		1F9C8DD524EAEEF00074F5C8 /* Permissions */ = {
 			isa = PBXGroup;
 			children = (
+				1FD70BB324EABC4900FD0AFC /* PrivacyView.swift */,
 			);
 			path = Permissions;
 			sourceTree = "<group>";
@@ -142,7 +149,7 @@
 		1F9C8DD924EAEF2C0074F5C8 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				1F9C8DE924EAF04B0074F5C8 /* Index.swift */,
+				1F9C8DE924EAF04B0074F5C8 /* ClassesIndex.swift */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -150,7 +157,7 @@
 		1F9C8DDA24EAEF310074F5C8 /* Storage */ = {
 			isa = PBXGroup;
 			children = (
-				1F9C8DE524EAF0150074F5C8 /* Index.swift */,
+				1F9C8DE524EAF0150074F5C8 /* StorageIndex.swift */,
 			);
 			path = Storage;
 			sourceTree = "<group>";
@@ -158,7 +165,7 @@
 		1F9C8DDB24EAEF380074F5C8 /* Adapters */ = {
 			isa = PBXGroup;
 			children = (
-				1F9C8DE724EAF0420074F5C8 /* Index.swift */,
+				1F9C8DE724EAF0420074F5C8 /* AdaptersIndex.swift */,
 			);
 			path = Adapters;
 			sourceTree = "<group>";
@@ -193,7 +200,7 @@
 		1F9C8DE024EAEF870074F5C8 /* REST */ = {
 			isa = PBXGroup;
 			children = (
-				1F9C8DEF24EAF0730074F5C8 /* Index.swift */,
+				1F9C8DEF24EAF0730074F5C8 /* RestIndex.swift */,
 			);
 			path = REST;
 			sourceTree = "<group>";
@@ -201,7 +208,7 @@
 		1F9C8DE124EAEF8D0074F5C8 /* Websockets */ = {
 			isa = PBXGroup;
 			children = (
-				1F9C8DF124EAF0810074F5C8 /* Index.swift */,
+				1F9C8DF124EAF0810074F5C8 /* WebsocketsIndex.swift */,
 			);
 			path = Websockets;
 			sourceTree = "<group>";
@@ -209,7 +216,7 @@
 		1F9C8DE224EAEF990074F5C8 /* Sync */ = {
 			isa = PBXGroup;
 			children = (
-				1F9C8DF324EAF0890074F5C8 /* Index.swift */,
+				1F9C8DF324EAF0890074F5C8 /* SyncIndex.swift */,
 			);
 			path = Sync;
 			sourceTree = "<group>";
@@ -217,7 +224,7 @@
 		1F9C8DE324EAEFA00074F5C8 /* Ble */ = {
 			isa = PBXGroup;
 			children = (
-				1F9C8DED24EAF0680074F5C8 /* Index.swift */,
+				1F9C8DED24EAF0680074F5C8 /* BLEIndex.swift */,
 			);
 			path = Ble;
 			sourceTree = "<group>";
@@ -225,7 +232,7 @@
 		1F9C8DE424EAEFA60074F5C8 /* Encounters */ = {
 			isa = PBXGroup;
 			children = (
-				1F9C8DEB24EAF0600074F5C8 /* Index.swift */,
+				1F9C8DEB24EAF0600074F5C8 /* EncountersIndex.swift */,
 			);
 			path = Encounters;
 			sourceTree = "<group>";
@@ -303,10 +310,7 @@
 				1F9C8DD424EAEEE80074F5C8 /* Authentication */,
 				1F9C8DD324EAEED80074F5C8 /* OnBoarding */,
 				1FD70BB524EAC1ED00FD0AFC /* Shared */,
-				1FD70BA624E9220200FD0AFC /* OnBoardingCardView.swift */,
-				1FD70BAD24EAAC7B00FD0AFC /* GetPhoneCardView.swift */,
-				1FD70BAF24EABA8700FD0AFC /* VerifyPhoneNumberCardView.swift */,
-				1FD70BB324EABC4900FD0AFC /* PrivacyView.swift */,
+				1FD70BAB24EAA78300FD0AFC /* BottomBrand.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -325,7 +329,6 @@
 		1FD70BB524EAC1ED00FD0AFC /* Shared */ = {
 			isa = PBXGroup;
 			children = (
-				1FD70BAB24EAA78300FD0AFC /* BottomBrand.swift */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -463,21 +466,22 @@
 			files = (
 				1FD70B7624E921A400FD0AFC /* AppDelegate.swift in Sources */,
 				1FD70BAA24E92AE500FD0AFC /* OnBoardingData.swift in Sources */,
-				1F9C8DEA24EAF04B0074F5C8 /* Index.swift in Sources */,
+				1F9C8DEA24EAF04B0074F5C8 /* ClassesIndex.swift in Sources */,
 				1FD70BB424EABC4900FD0AFC /* PrivacyView.swift in Sources */,
-				1F9C8DEC24EAF0600074F5C8 /* Index.swift in Sources */,
-				1F9C8DE824EAF0420074F5C8 /* Index.swift in Sources */,
+				1F90B05C24EB0AF50027A5E7 /* OnboardingMainView.swift in Sources */,
+				1F9C8DEC24EAF0600074F5C8 /* EncountersIndex.swift in Sources */,
+				1F9C8DE824EAF0420074F5C8 /* AdaptersIndex.swift in Sources */,
 				1FD70B7824E921A400FD0AFC /* SceneDelegate.swift in Sources */,
-				1F9C8DF424EAF0890074F5C8 /* Index.swift in Sources */,
-				1F9C8DE624EAF0150074F5C8 /* Index.swift in Sources */,
-				1F9C8DEE24EAF0680074F5C8 /* Index.swift in Sources */,
+				1F9C8DF424EAF0890074F5C8 /* SyncIndex.swift in Sources */,
+				1F9C8DE624EAF0150074F5C8 /* StorageIndex.swift in Sources */,
+				1F9C8DEE24EAF0680074F5C8 /* BLEIndex.swift in Sources */,
 				1FD70B7A24E921A400FD0AFC /* ContentView.swift in Sources */,
 				1FD70BAC24EAA78300FD0AFC /* BottomBrand.swift in Sources */,
 				1FD70BA724E9220200FD0AFC /* OnBoardingCardView.swift in Sources */,
 				1FD70BAE24EAAC7B00FD0AFC /* GetPhoneCardView.swift in Sources */,
 				1FD70BB024EABA8700FD0AFC /* VerifyPhoneNumberCardView.swift in Sources */,
-				1F9C8DF224EAF0810074F5C8 /* Index.swift in Sources */,
-				1F9C8DF024EAF0730074F5C8 /* Index.swift in Sources */,
+				1F9C8DF224EAF0810074F5C8 /* WebsocketsIndex.swift in Sources */,
+				1F9C8DF024EAF0730074F5C8 /* RestIndex.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
