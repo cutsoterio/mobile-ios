@@ -17,11 +17,13 @@ struct PrivacyView: View {
             Text("The data collected is used sorely to combat COVID-19")
                 .multilineTextAlignment(.center)
                 .padding(8)
-            H
-            Text("Data collection")
+            HStack(){
+                Text("Data ollection")
                 .fontWeight(.medium)
                 .multilineTextAlignment(.leading)
                 .padding(8)
+            }
+            
         }.padding()
     }
 }
