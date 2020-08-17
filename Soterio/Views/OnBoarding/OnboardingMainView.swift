@@ -10,19 +10,18 @@ import SwiftUI
 
 struct OnboardingMainView: View {
     @State var selectedPage: Int = 1
-     @State var slideGesture = CGSize.zero
-     @State var slideOne = false
-     @State var slideOnePrevious = false
-     @State var slideTwo = false
-     @State var slideTwoPrevious = false
-    
+    @State var slideGesture = CGSize.zero
+    @State var slideOne = false
+    @State var slideOnePrevious = false
+    @State var slideTwo = false
+    @State var slideTwoPrevious = false
+
      var body: some View {
          
          ZStack{
-             OnBoardingCardView(info: displayData[0])
+             OnBoardingCardView(info: displayData[2])
                  .offset(x: slideGesture.width)
                  .offset(x: slideTwo ? 0 : 500)
-                 //.offset(x: slideTwoPrevious ? 500 : 0)
                  .animation(.spring())
              
                  .gesture(
@@ -65,7 +64,7 @@ struct OnboardingMainView: View {
                  )
              
              
-             OnBoardingCardView(info: displayData[2])
+             OnBoardingCardView(info: displayData[0])
                  .offset(x: slideGesture.width)
                  .offset(x: slideOne ? -500 : 0)
                  .animation(.spring())
@@ -83,20 +82,19 @@ struct OnboardingMainView: View {
                          self.slideGesture = .zero
                      }
                  )
-             
              VStack {
                  Spacer()
                  VStack{
-                     Button(action: /*@START_MENU_TOKEN@*/{}/*@END_MENU_TOKEN@*/) {
-                         Text("Get started")
-                             .foregroundColor(Color.white)
-                     }
-                     .frame(width: 240, height: 40)
-                     .background(Color.blue)
-                     .cornerRadius(20)
-                 
+                    NavigationLink(destination: GetPhoneCardView()) {
+                        Text("Get started")
+                        .foregroundColor(Color.white)
+                        .frame(maxWidth: .infinity)
+                        .frame(height: 40)
+                        .background(Color.blue)
+                        .cornerRadius(8)
+                    }
                      
-                 }.padding()
+                 }.padding(.vertical, 40)
                  BottomBrand()
                  
              }

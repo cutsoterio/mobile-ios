@@ -32,6 +32,6 @@ struct OnBoardingCardView: View {
 
 struct OnBoardingCardView_Previews: PreviewProvider {
     static var previews: some View {
-        OnBoardingCardView(info: displayData[2])
+        OnBoardingCardView(info: displayData[0])
     }
 }
