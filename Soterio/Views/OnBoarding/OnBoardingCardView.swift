@@ -19,7 +19,7 @@ struct OnBoardingCardView: View {
                 .aspectRatio(contentMode: .fit)
                 .frame(width: 150, height: 150, alignment: .center)
             Spacer()
-                .frame(height: 64)
+            .frame(height: 32)
             Text(info.title)
                 .font(.title)
                 .fontWeight(.regular)
