@@ -17,6 +17,10 @@
 		1FD70B9824E921AA00FD0AFC /* SoterioUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FD70B9724E921AA00FD0AFC /* SoterioUITests.swift */; };
 		1FD70BA724E9220200FD0AFC /* OnBoardingCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FD70BA624E9220200FD0AFC /* OnBoardingCardView.swift */; };
 		1FD70BAA24E92AE500FD0AFC /* OnBoardingData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FD70BA924E92AE500FD0AFC /* OnBoardingData.swift */; };
+		1FD70BAC24EAA78300FD0AFC /* BottomBrand.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FD70BAB24EAA78300FD0AFC /* BottomBrand.swift */; };
+		1FD70BAE24EAAC7B00FD0AFC /* GetPhoneCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FD70BAD24EAAC7B00FD0AFC /* GetPhoneCardView.swift */; };
+		1FD70BB024EABA8700FD0AFC /* VerifyPhoneNumberCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FD70BAF24EABA8700FD0AFC /* VerifyPhoneNumberCardView.swift */; };
+		1FD70BB424EABC4900FD0AFC /* PrivacyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FD70BB324EABC4900FD0AFC /* PrivacyView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +57,10 @@
 		1FD70B9924E921AA00FD0AFC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1FD70BA624E9220200FD0AFC /* OnBoardingCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoardingCardView.swift; sourceTree = "<group>"; };
 		1FD70BA924E92AE500FD0AFC /* OnBoardingData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoardingData.swift; sourceTree = "<group>"; };
+		1FD70BAB24EAA78300FD0AFC /* BottomBrand.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomBrand.swift; sourceTree = "<group>"; };
+		1FD70BAD24EAAC7B00FD0AFC /* GetPhoneCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetPhoneCardView.swift; sourceTree = "<group>"; };
+		1FD70BAF24EABA8700FD0AFC /* VerifyPhoneNumberCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerifyPhoneNumberCardView.swift; sourceTree = "<group>"; };
+		1FD70BB324EABC4900FD0AFC /* PrivacyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrivacyView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -145,7 +153,11 @@
 		1FD70BA524E921BF00FD0AFC /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				1FD70BB524EAC1ED00FD0AFC /* Shared */,
 				1FD70BA624E9220200FD0AFC /* OnBoardingCardView.swift */,
+				1FD70BAD24EAAC7B00FD0AFC /* GetPhoneCardView.swift */,
+				1FD70BAF24EABA8700FD0AFC /* VerifyPhoneNumberCardView.swift */,
+				1FD70BB324EABC4900FD0AFC /* PrivacyView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -156,6 +168,14 @@
 				1FD70BA924E92AE500FD0AFC /* OnBoardingData.swift */,
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		1FD70BB524EAC1ED00FD0AFC /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				1FD70BAB24EAA78300FD0AFC /* BottomBrand.swift */,
+			);
+			path = Shared;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -291,9 +311,13 @@
 			files = (
 				1FD70B7624E921A400FD0AFC /* AppDelegate.swift in Sources */,
 				1FD70BAA24E92AE500FD0AFC /* OnBoardingData.swift in Sources */,
+				1FD70BB424EABC4900FD0AFC /* PrivacyView.swift in Sources */,
 				1FD70B7824E921A400FD0AFC /* SceneDelegate.swift in Sources */,
 				1FD70B7A24E921A400FD0AFC /* ContentView.swift in Sources */,
+				1FD70BAC24EAA78300FD0AFC /* BottomBrand.swift in Sources */,
 				1FD70BA724E9220200FD0AFC /* OnBoardingCardView.swift in Sources */,
+				1FD70BAE24EAAC7B00FD0AFC /* GetPhoneCardView.swift in Sources */,
+				1FD70BB024EABA8700FD0AFC /* VerifyPhoneNumberCardView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -16,10 +16,7 @@ struct ContentView: View {
     @State var slideOnePrevious = false
     @State var slideTwo = false
     @State var slideTwoPrevious = false
-    @State var a: String = "-"
-    @State var b: String = "-"
-    @State var c: String = "-"
-    
+   
     var body: some View {
         
         ZStack{
@@ -37,11 +34,6 @@ struct ContentView: View {
                             if self.slideGesture.width > 150{
                                 self.slideTwo = false
                                 self.slideTwoPrevious = true
-                            }
-                            if self.slideGesture.width > 150{
-                                self.a = "-"
-                                self.b = "*"
-                                self.c = "-"
                             }
                             
                             self.slideGesture = .zero
@@ -69,11 +61,6 @@ struct ContentView: View {
                                 self.slideOnePrevious = true
                                 self.slideOne = false
                             }
-                            if self.slideGesture.width > 150{
-                                self.a = "-"
-                                self.b = "-"
-                                self.c = "-"
-                            }
                             self.slideGesture = .zero
                         }
                 )
@@ -93,36 +80,10 @@ struct ContentView: View {
                             self.slideOne = true
                             self.slideOnePrevious = false
                         }
-                        if self.slideGesture.width > 150 {
-                            self.a = "-"
-                            self.b = "-"
-                            self.c = "-"
-                        }
-                        if self.slideGesture.width < -150{
-                            self.a = "-"
-                            self.b = "*"
-                            self.c = "-"
-                        }
                         
                         self.slideGesture = .zero
                     }
                 )
-            
-            VStack {
-                Spacer()
-                HStack {
-                    Text("\(a)")
-                        .id("one")
-                    //.hidden()
-                    Text("\(b)")
-                        .id("two")
-                    //.hidden()
-                    Text("\(c)")
-                    .id("three")
-                    //.hidden()
-                }.padding()
-            }
-            .padding(.bottom, 64.0)
             
             VStack {
                 Spacer()
@@ -136,7 +97,9 @@ struct ContentView: View {
                     .cornerRadius(20)
                 
                     
-                }
+                }.padding()
+                BottomBrand()
+                
             }
         }.padding()
         

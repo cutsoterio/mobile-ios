@@ -1,37 +1,34 @@
 //
-//  OnBoardingCardView.swift
+//  VerifyPhoneNumberCardView.swift
 //  Soterio
 //
-//  Created by Tatenda Christopher Chinyamakobvu on 8/16/20.
+//  Created by Tatenda Christopher Chinyamakobvu on 8/17/20.
 //  Copyright © 2020 Soterio. All rights reserved.
 //
 
 import SwiftUI
 
-struct OnBoardingCardView: View {
-    
-    var info: OnBoardingData
-    
+struct VerifyPhoneNumberCardView: View {
     var body: some View {
         VStack {
-            Image(info.image)
+            Image("one")
                 .resizable()
                 .aspectRatio(contentMode: .fit)
                 .frame(width: 150, height: 150, alignment: .center)
             Spacer()
-                .frame(height: 64)
-            Text(info.title)
+                .frame(height: 24)
+            Text("Verify your phone number")
                 .font(.title)
                 .fontWeight(.regular)
-            Text(info.description)
+            Text("Enter the code sent to your number")
                 .multilineTextAlignment(.center)
-                .padding()
+                .padding(8)
         }.padding()
     }
 }
 
-struct OnBoardingCardView_Previews: PreviewProvider {
+struct VerifyPhoneNumberCardView_Previews: PreviewProvider {
     static var previews: some View {
-        OnBoardingCardView(info: displayData[2])
+        VerifyPhoneNumberCardView()
     }
 }
