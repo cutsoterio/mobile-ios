@@ -15,21 +15,19 @@ struct BluetoothView: View {
                 .resizable()
                 .aspectRatio(contentMode: .fit)
                 .frame(width: 150, height: 150, alignment: .center)
-            Spacer()
-                .frame(height: 32)
             Text("Allow bluetooth and location access")
                 .fontWeight(.regular)
                 .multilineTextAlignment(.center)
                 .lineLimit(nil)
                 .font(.title)
                 
-            Text("This application uses low energy bluetooth to log encounters between phones with the appliaction installed.\n\nThis applicationn also requires location access in order to warn of your interactions with COVID-19 redzones.\n")
+            Text("This application uses low energy bluetooth to log encounters between phones with the appliaction installed.\n\nThis applicationn also requires location access in order to warn of your interactions with COVID-19 redzones.")
                 .multilineTextAlignment(.center)
                 .padding()
             
             VStack {
                 Spacer()
-                    .frame(height: 64 )
+                    .frame(height: 16)
                 VStack{
                    NavigationLink(destination: NotificationsView()) {
                        Text("Approve permissions")

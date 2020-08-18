@@ -16,6 +16,7 @@
 		1F395A9B24EB35F300CB9806 /* BluetoothView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F395A9A24EB35F300CB9806 /* BluetoothView.swift */; };
 		1F395A9D24EB360B00CB9806 /* NotificationsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F395A9C24EB360B00CB9806 /* NotificationsView.swift */; };
 		1F395A9F24EB362900CB9806 /* GetStartedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F395A9E24EB362900CB9806 /* GetStartedView.swift */; };
+		1F395AA124EC0C0600CB9806 /* LandingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F395AA024EC0C0600CB9806 /* LandingView.swift */; };
 		1F90B05C24EB0AF50027A5E7 /* OnboardingMainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F90B05B24EB0AF50027A5E7 /* OnboardingMainView.swift */; };
 		1F9C8DE624EAF0150074F5C8 /* StorageIndex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F9C8DE524EAF0150074F5C8 /* StorageIndex.swift */; };
 		1F9C8DE824EAF0420074F5C8 /* AdaptersIndex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F9C8DE724EAF0420074F5C8 /* AdaptersIndex.swift */; };
@@ -71,6 +72,7 @@
 		1F395A9A24EB35F300CB9806 /* BluetoothView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BluetoothView.swift; sourceTree = "<group>"; };
 		1F395A9C24EB360B00CB9806 /* NotificationsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationsView.swift; sourceTree = "<group>"; };
 		1F395A9E24EB362900CB9806 /* GetStartedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetStartedView.swift; sourceTree = "<group>"; };
+		1F395AA024EC0C0600CB9806 /* LandingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandingView.swift; sourceTree = "<group>"; };
 		1F90B05B24EB0AF50027A5E7 /* OnboardingMainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingMainView.swift; sourceTree = "<group>"; };
 		1F9C8DE524EAF0150074F5C8 /* StorageIndex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorageIndex.swift; sourceTree = "<group>"; };
 		1F9C8DE724EAF0420074F5C8 /* AdaptersIndex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdaptersIndex.swift; sourceTree = "<group>"; };
@@ -169,6 +171,7 @@
 		1F9C8DD624EAEEF80074F5C8 /* Main */ = {
 			isa = PBXGroup;
 			children = (
+				1F395AA024EC0C0600CB9806 /* LandingView.swift */,
 			);
 			path = Main;
 			sourceTree = "<group>";
@@ -661,6 +664,7 @@
 				1568F0B624EBCF4800D58D0E /* Token.swift in Sources */,
 				1FD70BB024EABA8700FD0AFC /* VerifyPhoneNumberCardView.swift in Sources */,
 				1F9C8DF224EAF0810074F5C8 /* WebsocketsIndex.swift in Sources */,
+				1F395AA124EC0C0600CB9806 /* LandingView.swift in Sources */,
 				1F9C8DF024EAF0730074F5C8 /* RestIndex.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
