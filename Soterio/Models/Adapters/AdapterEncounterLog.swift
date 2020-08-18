@@ -7,3 +7,8 @@
 //
 
 import Foundation
+
+struct AdapterEncounterLog{
+    let uid: String
+    let encounters: [Encounter]
+}

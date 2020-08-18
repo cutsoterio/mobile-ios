@@ -2,8 +2,13 @@
 //  Encounter.swift
 //  Soterio
 //
-//  Created by Tatenda Christopher Chinyamakobvu on 5/28/1399 AP.
-//  Copyright © 1399 Soterio. All rights reserved.
+//  Created by Tatenda Christopher Chinyamakobvu on 08/18/2020 AP.
+//  Copyright © 2020 Soterio. All rights reserved.
 //
 
 import Foundation
+
+struct Encounter {
+    let Identifier: String
+    let timestamp: UInt64
+}

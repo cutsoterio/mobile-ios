@@ -7,3 +7,9 @@
 //
 
 import Foundation
+
+struct Token: Codable {
+    let Identifier: String
+    let tll: String
+    let tul: String
+}

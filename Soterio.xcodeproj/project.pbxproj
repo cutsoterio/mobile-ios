@@ -3,10 +3,16 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		122C5D301D4B9E57ACDA5029 /* Pods_Soterio_SoterioUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F80D84A158FD940E5E37A1F1 /* Pods_Soterio_SoterioUITests.framework */; };
+		1568F0B424EBCED000D58D0E /* AdapterTokensResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1568F0B324EBCED000D58D0E /* AdapterTokensResponse.swift */; };
+		1568F0B624EBCF4800D58D0E /* Token.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1568F0B524EBCF4800D58D0E /* Token.swift */; };
+		1568F0B824EBCFBC00D58D0E /* Encounter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1568F0B724EBCFBC00D58D0E /* Encounter.swift */; };
+		1568F0BA24EBD05200D58D0E /* AdapterEncounterLog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1568F0B924EBD05200D58D0E /* AdapterEncounterLog.swift */; };
+		1568F0BC24EBD65D00D58D0E /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1568F0BB24EBD65C00D58D0E /* GoogleService-Info.plist */; };
 		1F395A9B24EB35F300CB9806 /* BluetoothView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F395A9A24EB35F300CB9806 /* BluetoothView.swift */; };
 		1F395A9D24EB360B00CB9806 /* NotificationsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F395A9C24EB360B00CB9806 /* NotificationsView.swift */; };
 		1F395A9F24EB362900CB9806 /* GetStartedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F395A9E24EB362900CB9806 /* GetStartedView.swift */; };
@@ -33,6 +39,8 @@
 		1FD70BAE24EAAC7B00FD0AFC /* GetPhoneCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FD70BAD24EAAC7B00FD0AFC /* GetPhoneCardView.swift */; };
 		1FD70BB024EABA8700FD0AFC /* VerifyPhoneNumberCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FD70BAF24EABA8700FD0AFC /* VerifyPhoneNumberCardView.swift */; };
 		1FD70BB424EABC4900FD0AFC /* PrivacyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FD70BB324EABC4900FD0AFC /* PrivacyView.swift */; };
+		9069AC2F6F20D97A7C90E2FE /* Pods_Soterio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 38E48245D98C1BE45DE9C77B /* Pods_Soterio.framework */; };
+		C8E18991448F3B8A8F445EEA /* Pods_SoterioTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08C4D2BD66298B7D7281A4DA /* Pods_SoterioTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +61,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		08C4D2BD66298B7D7281A4DA /* Pods_SoterioTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SoterioTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1568F0B324EBCED000D58D0E /* AdapterTokensResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdapterTokensResponse.swift; sourceTree = "<group>"; };
+		1568F0B524EBCF4800D58D0E /* Token.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Token.swift; sourceTree = "<group>"; };
+		1568F0B724EBCFBC00D58D0E /* Encounter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Encounter.swift; sourceTree = "<group>"; };
+		1568F0B924EBD05200D58D0E /* AdapterEncounterLog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdapterEncounterLog.swift; sourceTree = "<group>"; };
+		1568F0BB24EBD65C00D58D0E /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		15AA826A3B9E4A6719F262CA /* Pods-Soterio-SoterioUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Soterio-SoterioUITests.debug.xcconfig"; path = "Target Support Files/Pods-Soterio-SoterioUITests/Pods-Soterio-SoterioUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		1F395A9A24EB35F300CB9806 /* BluetoothView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BluetoothView.swift; sourceTree = "<group>"; };
 		1F395A9C24EB360B00CB9806 /* NotificationsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationsView.swift; sourceTree = "<group>"; };
 		1F395A9E24EB362900CB9806 /* GetStartedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetStartedView.swift; sourceTree = "<group>"; };
@@ -85,6 +100,13 @@
 		1FD70BAD24EAAC7B00FD0AFC /* GetPhoneCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetPhoneCardView.swift; sourceTree = "<group>"; };
 		1FD70BAF24EABA8700FD0AFC /* VerifyPhoneNumberCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerifyPhoneNumberCardView.swift; sourceTree = "<group>"; };
 		1FD70BB324EABC4900FD0AFC /* PrivacyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrivacyView.swift; sourceTree = "<group>"; };
+		38E48245D98C1BE45DE9C77B /* Pods_Soterio.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Soterio.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		88C03E22DD551AE90B5BF35D /* Pods-Soterio.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Soterio.debug.xcconfig"; path = "Target Support Files/Pods-Soterio/Pods-Soterio.debug.xcconfig"; sourceTree = "<group>"; };
+		9A86B06C1DA6BA0FB7AB2C3F /* Pods-SoterioTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SoterioTests.release.xcconfig"; path = "Target Support Files/Pods-SoterioTests/Pods-SoterioTests.release.xcconfig"; sourceTree = "<group>"; };
+		AC73A609CE81DA0EFAD6E82C /* Pods-Soterio-SoterioUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Soterio-SoterioUITests.release.xcconfig"; path = "Target Support Files/Pods-Soterio-SoterioUITests/Pods-Soterio-SoterioUITests.release.xcconfig"; sourceTree = "<group>"; };
+		E78C16C7B3ED68F2F2298523 /* Pods-Soterio.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Soterio.release.xcconfig"; path = "Target Support Files/Pods-Soterio/Pods-Soterio.release.xcconfig"; sourceTree = "<group>"; };
+		F80D84A158FD940E5E37A1F1 /* Pods_Soterio_SoterioUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Soterio_SoterioUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA3E33034FB081D0AB930610 /* Pods-SoterioTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SoterioTests.debug.xcconfig"; path = "Target Support Files/Pods-SoterioTests/Pods-SoterioTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,6 +114,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9069AC2F6F20D97A7C90E2FE /* Pods_Soterio.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -99,6 +122,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C8E18991448F3B8A8F445EEA /* Pods_SoterioTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -106,6 +130,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				122C5D301D4B9E57ACDA5029 /* Pods_Soterio_SoterioUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -159,6 +184,8 @@
 			isa = PBXGroup;
 			children = (
 				1F9C8DE924EAF04B0074F5C8 /* ClassesIndex.swift */,
+				1568F0B524EBCF4800D58D0E /* Token.swift */,
+				1568F0B724EBCFBC00D58D0E /* Encounter.swift */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -175,6 +202,8 @@
 			isa = PBXGroup;
 			children = (
 				1F9C8DE724EAF0420074F5C8 /* AdaptersIndex.swift */,
+				1568F0B324EBCED000D58D0E /* AdapterTokensResponse.swift */,
+				1568F0B924EBD05200D58D0E /* AdapterEncounterLog.swift */,
 			);
 			path = Adapters;
 			sourceTree = "<group>";
@@ -253,6 +282,8 @@
 				1FD70B8B24E921A900FD0AFC /* SoterioTests */,
 				1FD70B9624E921AA00FD0AFC /* SoterioUITests */,
 				1FD70B7324E921A400FD0AFC /* Products */,
+				302D7039870EEFD1B6CD04BD /* Pods */,
+				E01702D4E9EE6F83F232110E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -279,6 +310,7 @@
 				1FD70B7B24E921A900FD0AFC /* Assets.xcassets */,
 				1FD70B8024E921A900FD0AFC /* LaunchScreen.storyboard */,
 				1FD70B8324E921A900FD0AFC /* Info.plist */,
+				1568F0BB24EBD65C00D58D0E /* GoogleService-Info.plist */,
 				1FD70B7D24E921A900FD0AFC /* Preview Content */,
 			);
 			path = Soterio;
@@ -342,6 +374,29 @@
 			path = Shared;
 			sourceTree = "<group>";
 		};
+		302D7039870EEFD1B6CD04BD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				88C03E22DD551AE90B5BF35D /* Pods-Soterio.debug.xcconfig */,
+				E78C16C7B3ED68F2F2298523 /* Pods-Soterio.release.xcconfig */,
+				15AA826A3B9E4A6719F262CA /* Pods-Soterio-SoterioUITests.debug.xcconfig */,
+				AC73A609CE81DA0EFAD6E82C /* Pods-Soterio-SoterioUITests.release.xcconfig */,
+				FA3E33034FB081D0AB930610 /* Pods-SoterioTests.debug.xcconfig */,
+				9A86B06C1DA6BA0FB7AB2C3F /* Pods-SoterioTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		E01702D4E9EE6F83F232110E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				38E48245D98C1BE45DE9C77B /* Pods_Soterio.framework */,
+				F80D84A158FD940E5E37A1F1 /* Pods_Soterio_SoterioUITests.framework */,
+				08C4D2BD66298B7D7281A4DA /* Pods_SoterioTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -349,9 +404,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1FD70B9C24E921AA00FD0AFC /* Build configuration list for PBXNativeTarget "Soterio" */;
 			buildPhases = (
+				6D94095AD437AD37F8FF95BA /* [CP] Check Pods Manifest.lock */,
 				1FD70B6E24E921A400FD0AFC /* Sources */,
 				1FD70B6F24E921A400FD0AFC /* Frameworks */,
 				1FD70B7024E921A400FD0AFC /* Resources */,
+				4A3A3D7A523073C2CDC0DA7D /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -366,6 +423,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1FD70B9F24E921AA00FD0AFC /* Build configuration list for PBXNativeTarget "SoterioTests" */;
 			buildPhases = (
+				73B42C4D8F73074353DB2064 /* [CP] Check Pods Manifest.lock */,
 				1FD70B8424E921A900FD0AFC /* Sources */,
 				1FD70B8524E921A900FD0AFC /* Frameworks */,
 				1FD70B8624E921A900FD0AFC /* Resources */,
@@ -384,9 +442,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1FD70BA224E921AA00FD0AFC /* Build configuration list for PBXNativeTarget "SoterioUITests" */;
 			buildPhases = (
+				D3784A3314E64854C6D5DE01 /* [CP] Check Pods Manifest.lock */,
 				1FD70B8F24E921AA00FD0AFC /* Sources */,
 				1FD70B9024E921AA00FD0AFC /* Frameworks */,
 				1FD70B9124E921AA00FD0AFC /* Resources */,
+				66BEFDE8752C02130C6E36D3 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -447,6 +507,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1FD70B8224E921A900FD0AFC /* LaunchScreen.storyboard in Resources */,
+				1568F0BC24EBD65D00D58D0E /* GoogleService-Info.plist in Resources */,
 				1FD70B7F24E921A900FD0AFC /* Preview Assets.xcassets in Resources */,
 				1FD70B7C24E921A900FD0AFC /* Assets.xcassets in Resources */,
 			);
@@ -468,6 +529,109 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		4A3A3D7A523073C2CDC0DA7D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Soterio/Pods-Soterio-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Soterio/Pods-Soterio-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Soterio/Pods-Soterio-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		66BEFDE8752C02130C6E36D3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Soterio-SoterioUITests/Pods-Soterio-SoterioUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Soterio-SoterioUITests/Pods-Soterio-SoterioUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Soterio-SoterioUITests/Pods-Soterio-SoterioUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6D94095AD437AD37F8FF95BA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Soterio-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		73B42C4D8F73074353DB2064 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SoterioTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D3784A3314E64854C6D5DE01 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Soterio-SoterioUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		1FD70B6E24E921A400FD0AFC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -477,20 +641,24 @@
 				1FD70BAA24E92AE500FD0AFC /* OnBoardingData.swift in Sources */,
 				1F9C8DEA24EAF04B0074F5C8 /* ClassesIndex.swift in Sources */,
 				1F395A9B24EB35F300CB9806 /* BluetoothView.swift in Sources */,
+				1568F0B424EBCED000D58D0E /* AdapterTokensResponse.swift in Sources */,
 				1F395A9F24EB362900CB9806 /* GetStartedView.swift in Sources */,
 				1FD70BB424EABC4900FD0AFC /* PrivacyView.swift in Sources */,
 				1F90B05C24EB0AF50027A5E7 /* OnboardingMainView.swift in Sources */,
 				1F9C8DEC24EAF0600074F5C8 /* EncountersIndex.swift in Sources */,
 				1F9C8DE824EAF0420074F5C8 /* AdaptersIndex.swift in Sources */,
+				1568F0BA24EBD05200D58D0E /* AdapterEncounterLog.swift in Sources */,
 				1FD70B7824E921A400FD0AFC /* SceneDelegate.swift in Sources */,
 				1F9C8DF424EAF0890074F5C8 /* SyncIndex.swift in Sources */,
 				1F9C8DE624EAF0150074F5C8 /* StorageIndex.swift in Sources */,
+				1568F0B824EBCFBC00D58D0E /* Encounter.swift in Sources */,
 				1F395A9D24EB360B00CB9806 /* NotificationsView.swift in Sources */,
 				1F9C8DEE24EAF0680074F5C8 /* BLEIndex.swift in Sources */,
 				1FD70B7A24E921A400FD0AFC /* ContentView.swift in Sources */,
 				1FD70BAC24EAA78300FD0AFC /* BottomBrand.swift in Sources */,
 				1FD70BA724E9220200FD0AFC /* OnBoardingCardView.swift in Sources */,
 				1FD70BAE24EAAC7B00FD0AFC /* GetPhoneCardView.swift in Sources */,
+				1568F0B624EBCF4800D58D0E /* Token.swift in Sources */,
 				1FD70BB024EABA8700FD0AFC /* VerifyPhoneNumberCardView.swift in Sources */,
 				1F9C8DF224EAF0810074F5C8 /* WebsocketsIndex.swift in Sources */,
 				1F9C8DF024EAF0730074F5C8 /* RestIndex.swift in Sources */,
@@ -656,17 +824,19 @@
 		};
 		1FD70B9D24E921AA00FD0AFC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 88C03E22DD551AE90B5BF35D /* Pods-Soterio.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"Soterio/Preview Content\"";
+				DEVELOPMENT_TEAM = NY86PDUTAM;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = Soterio/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = soterio.co.zw.Soterio;
+				PRODUCT_BUNDLE_IDENTIFIER = zw.ac.cut.guava.soterio;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -675,17 +845,19 @@
 		};
 		1FD70B9E24E921AA00FD0AFC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E78C16C7B3ED68F2F2298523 /* Pods-Soterio.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"Soterio/Preview Content\"";
+				DEVELOPMENT_TEAM = NY86PDUTAM;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = Soterio/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = soterio.co.zw.Soterio;
+				PRODUCT_BUNDLE_IDENTIFIER = zw.ac.cut.guava.soterio;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -694,6 +866,7 @@
 		};
 		1FD70BA024E921AA00FD0AFC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FA3E33034FB081D0AB930610 /* Pods-SoterioTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -715,6 +888,7 @@
 		};
 		1FD70BA124E921AA00FD0AFC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9A86B06C1DA6BA0FB7AB2C3F /* Pods-SoterioTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -736,6 +910,7 @@
 		};
 		1FD70BA324E921AA00FD0AFC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 15AA826A3B9E4A6719F262CA /* Pods-Soterio-SoterioUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -755,6 +930,7 @@
 		};
 		1FD70BA424E921AA00FD0AFC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AC73A609CE81DA0EFAD6E82C /* Pods-Soterio-SoterioUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
