@@ -1,0 +1,6 @@
+framework module Pods_SoterioTests {
+  umbrella header "Pods-SoterioTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

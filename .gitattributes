@@ -1,0 +1,4 @@
+*.swift merge=union
+*.plist merge=union
+*.pbxproj merge=union
+

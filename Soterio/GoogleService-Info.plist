@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>956939848320-27mo88rl8m5omi73lic3n6dp89tsl1mr.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.956939848320-27mo88rl8m5omi73lic3n6dp89tsl1mr</string>
+	<key>ANDROID_CLIENT_ID</key>
+	<string>956939848320-8nbnlbm1ph1kuh9q6k90knjk89pkf491.apps.googleusercontent.com</string>
+	<key>API_KEY</key>
+	<string>AIzaSyBxAuYbsyKGg1f9fSNQAlNxM3CmxX6Z8ro</string>
+	<key>GCM_SENDER_ID</key>
+	<string>956939848320</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>zw.ac.cut.guava.soterio</string>
+	<key>PROJECT_ID</key>
+	<string>soterio-d04a8</string>
+	<key>STORAGE_BUCKET</key>
+	<string>soterio-d04a8.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:956939848320:ios:088382f8bf241b9dd9b465</string>
+	<key>DATABASE_URL</key>
+	<string>https://soterio-d04a8.firebaseio.com</string>
+</dict>
+</plist>
