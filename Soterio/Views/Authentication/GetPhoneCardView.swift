@@ -28,13 +28,27 @@ struct GetPhoneCardView: View {
             TextField("Enter phone number", text: $phoneNumber)
                 .textFieldStyle(RoundedBorderTextFieldStyle())
             
+            VStack {
+                VStack{
+                    NavigationLink(destination: VerifyPhoneNumberCardView()) {
+                       Text("Get OTP")
+                           .foregroundColor(Color.white)
+                           .frame(maxWidth: .infinity)
+                           .frame(height: 40)
+                           .background(Color.blue)
+                           .cornerRadius(8)
+                    }
+                    
+                }
+                Spacer()
+                BottomBrand()
+            }
         }.padding()
     }
 }
 
 struct GetPhoneCardView_Previews: PreviewProvider {
     static var previews: some View {
-        
         GetPhoneCardView()
     }
 }

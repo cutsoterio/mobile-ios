@@ -19,7 +19,7 @@ struct OnBoardingCardView: View {
                 .aspectRatio(contentMode: .fit)
                 .frame(width: 150, height: 150, alignment: .center)
             Spacer()
-                .frame(height: 64)
+            .frame(height: 32)
             Text(info.title)
                 .font(.title)
                 .fontWeight(.regular)
@@ -32,6 +32,6 @@ struct OnBoardingCardView: View {
 
 struct OnBoardingCardView_Previews: PreviewProvider {
     static var previews: some View {
-        OnBoardingCardView(info: displayData[2])
+        OnBoardingCardView(info: displayData[0])
     }
 }
