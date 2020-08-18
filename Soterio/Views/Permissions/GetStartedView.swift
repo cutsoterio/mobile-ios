@@ -26,22 +26,24 @@ struct GetStartedView: View {
             Text("Your phone will be securely and anynomously sharing a unique number with other phones around you. This will be key in alerting you if you have been exposed to a COVID-19 patient.")
                 .multilineTextAlignment(.center)
                 .padding()
-            
+            Spacer()
             VStack {
                 Spacer()
-                    .frame(height: 64 )
+                    .frame(height: 16)
                 VStack{
-                   //NavigationLink(destination: GetPhoneCardView()) {
+                   NavigationLink(destination: LandingView()) {
                        Text("Get started")
                        .foregroundColor(Color.white)
                        .frame(maxWidth: .infinity)
                        .frame(height: 40)
                        .background(Color.blue)
                        .cornerRadius(8)
-                   //}
+                   }
                     
                 }.padding(.vertical, 40)
+                //Spacer()
                 BottomBrand()
+                //Spacer()
                 
             }
         }.padding()
