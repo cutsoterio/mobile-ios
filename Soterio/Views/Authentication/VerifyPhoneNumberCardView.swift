@@ -9,6 +9,8 @@
 import SwiftUI
 
 struct VerifyPhoneNumberCardView: View {
+    
+    @State var verifyPin: String = ""
     var body: some View {
         VStack {
             Image("one")
@@ -23,6 +25,25 @@ struct VerifyPhoneNumberCardView: View {
             Text("Enter the code sent to your number")
                 .multilineTextAlignment(.center)
                 .padding(8)
+            
+            TextField("Enter phone number", text: $verifyPin)
+                .textFieldStyle(RoundedBorderTextFieldStyle())
+            
+            VStack {
+                VStack{
+                    NavigationLink(destination: PrivacyView()) {
+                       Text("Verify")
+                           .foregroundColor(Color.white)
+                           .frame(maxWidth: .infinity)
+                           .frame(height: 40)
+                           .background(Color.blue)
+                           .cornerRadius(8)
+                    }
+                    
+                }
+                Spacer()
+                BottomBrand()
+            }
         }.padding()
     }
 }
