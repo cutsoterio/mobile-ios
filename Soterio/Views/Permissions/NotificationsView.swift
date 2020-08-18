@@ -17,7 +17,7 @@ struct NotificationsView: View {
                 .frame(width: 150, height: 150, alignment: .center)
             Spacer()
                 .frame(height: 32)
-            Text("Enable notications")
+            Text("Enable notifications")
                 .fontWeight(.regular)
                 .multilineTextAlignment(.center)
                 .lineLimit(nil)
@@ -27,6 +27,7 @@ struct NotificationsView: View {
                 .multilineTextAlignment(.center)
                 .padding()
             
+            Spacer()
             VStack {
                 Spacer()
                     .frame(height: 64 )
@@ -41,6 +42,7 @@ struct NotificationsView: View {
                    }
                     
                 }.padding(.vertical, 40)
+                //Spacer()
                 BottomBrand()
                 
             }
