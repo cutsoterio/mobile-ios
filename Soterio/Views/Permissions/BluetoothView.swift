@@ -24,7 +24,7 @@ struct BluetoothView: View {
             Text("This application uses low energy bluetooth to log encounters between phones with the appliaction installed.\n\nThis applicationn also requires location access in order to warn of your interactions with COVID-19 redzones.")
                 .multilineTextAlignment(.center)
                 .padding()
-            
+            Spacer()
             VStack {
                 Spacer()
                     .frame(height: 16)

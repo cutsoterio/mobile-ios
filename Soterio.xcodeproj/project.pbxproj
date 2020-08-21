@@ -42,6 +42,9 @@
 		1FD70BB424EABC4900FD0AFC /* PrivacyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FD70BB324EABC4900FD0AFC /* PrivacyView.swift */; };
 		9069AC2F6F20D97A7C90E2FE /* Pods_Soterio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 38E48245D98C1BE45DE9C77B /* Pods_Soterio.framework */; };
 		C8E18991448F3B8A8F445EEA /* Pods_SoterioTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08C4D2BD66298B7D7281A4DA /* Pods_SoterioTests.framework */; };
+		F83B384C24ECA0D60004E155 /* UploadView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F83B384B24ECA0D60004E155 /* UploadView.swift */; };
+		F83B384E24ECA0EF0004E155 /* HospitalsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F83B384D24ECA0EF0004E155 /* HospitalsView.swift */; };
+		F83B385024ECA1010004E155 /* TestingCentersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F83B384F24ECA1010004E155 /* TestingCentersView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -108,6 +111,9 @@
 		AC73A609CE81DA0EFAD6E82C /* Pods-Soterio-SoterioUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Soterio-SoterioUITests.release.xcconfig"; path = "Target Support Files/Pods-Soterio-SoterioUITests/Pods-Soterio-SoterioUITests.release.xcconfig"; sourceTree = "<group>"; };
 		E78C16C7B3ED68F2F2298523 /* Pods-Soterio.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Soterio.release.xcconfig"; path = "Target Support Files/Pods-Soterio/Pods-Soterio.release.xcconfig"; sourceTree = "<group>"; };
 		F80D84A158FD940E5E37A1F1 /* Pods_Soterio_SoterioUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Soterio_SoterioUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F83B384B24ECA0D60004E155 /* UploadView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadView.swift; sourceTree = "<group>"; };
+		F83B384D24ECA0EF0004E155 /* HospitalsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HospitalsView.swift; sourceTree = "<group>"; };
+		F83B384F24ECA1010004E155 /* TestingCentersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestingCentersView.swift; sourceTree = "<group>"; };
 		FA3E33034FB081D0AB930610 /* Pods-SoterioTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SoterioTests.debug.xcconfig"; path = "Target Support Files/Pods-SoterioTests/Pods-SoterioTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -172,6 +178,9 @@
 			isa = PBXGroup;
 			children = (
 				1F395AA024EC0C0600CB9806 /* LandingView.swift */,
+				F83B384B24ECA0D60004E155 /* UploadView.swift */,
+				F83B384D24ECA0EF0004E155 /* HospitalsView.swift */,
+				F83B384F24ECA1010004E155 /* TestingCentersView.swift */,
 			);
 			path = Main;
 			sourceTree = "<group>";
@@ -640,6 +649,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F83B384C24ECA0D60004E155 /* UploadView.swift in Sources */,
 				1FD70B7624E921A400FD0AFC /* AppDelegate.swift in Sources */,
 				1FD70BAA24E92AE500FD0AFC /* OnBoardingData.swift in Sources */,
 				1F9C8DEA24EAF04B0074F5C8 /* ClassesIndex.swift in Sources */,
@@ -655,7 +665,9 @@
 				1F9C8DF424EAF0890074F5C8 /* SyncIndex.swift in Sources */,
 				1F9C8DE624EAF0150074F5C8 /* StorageIndex.swift in Sources */,
 				1568F0B824EBCFBC00D58D0E /* Encounter.swift in Sources */,
+				F83B384E24ECA0EF0004E155 /* HospitalsView.swift in Sources */,
 				1F395A9D24EB360B00CB9806 /* NotificationsView.swift in Sources */,
+				F83B385024ECA1010004E155 /* TestingCentersView.swift in Sources */,
 				1F9C8DEE24EAF0680074F5C8 /* BLEIndex.swift in Sources */,
 				1FD70B7A24E921A400FD0AFC /* ContentView.swift in Sources */,
 				1FD70BAC24EAA78300FD0AFC /* BottomBrand.swift in Sources */,

@@ -28,7 +28,8 @@ struct VerifyPhoneNumberCardView: View {
             
             TextField("Enter phone number", text: $verifyPin)
                 .textFieldStyle(RoundedBorderTextFieldStyle())
-            
+            Spacer()
+                .frame(height: 24)
             VStack {
                 VStack{
                     NavigationLink(destination: PrivacyView()) {

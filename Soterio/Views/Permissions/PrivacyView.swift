@@ -19,35 +19,29 @@ struct PrivacyView: View {
                 .padding(8)
             
             ScrollView(.vertical, showsIndicators: true){
-                Text("Data collection                                                                                      ")
-                    .fontWeight(.medium)
-                    .padding(.vertical)
-                    .multilineTextAlignment(.leading)
-                    .frame(maxWidth: .infinity)
-                
-                Text("Your phone will be sharing a unique number with other phones that you come nearby. This number contains no personal identifiable information. At no point is your personal information shared with third party.")
-                    .lineLimit(nil)
-            
-                Text("Ensuring privacy                                                                                      ")
-                    .fontWeight(.medium)
-                    .padding(.vertical)
-                    .multilineTextAlignment(.leading)
-                    .frame(maxWidth: .infinity)
-                
-                Text("Phones will never share personal identifiable information. Your name and ID number are stored securely on your phone only. Only the ministry of Health is able to decode the unique number your phone has received from a person.")
-                    .lineLimit(nil)
+                VStack(alignment: .leading, spacing: 16){
+                    Text("Data collection")
+                            .fontWeight(.medium)
+                        
+                        Text("Your phone will be sharing a unique number with other phones that you come nearby. This number contains no personal identifiable information. At no point is your personal information shared with third party.")
+                            .lineLimit(nil)
+                    
+                        Text("Ensuring privacy")
+                            .fontWeight(.medium)
+                        
+                        Text("Phones will never share personal identifiable information. Your name and ID number are stored securely on your phone only. Only the ministry of Health is able to decode the unique number your phone has received from a person.")
+                            .lineLimit(nil)
 
 
-                Text("Contact tracing and notifications                                                                                      ")
-                    .fontWeight(.medium)
-                    .padding(.vertical)
-                    .multilineTextAlignment(.leading)
-                    .frame(maxWidth: .infinity)
+                        Text("Contact tracing and notifications")
+                            .fontWeight(.medium)
+                        
+                        Text("Exposure notifications sent will not contain the identities of patients whom you might have been in contact with. Nontheless, the notification will tell you the approximate time of the encounter and its duration.")
+                        .lineLimit(nil)
+                }
                 
-                Text("Exposure notifications sent will not contain the identities of patients whom you might have been in contact with. Nontheless, the notification will tell you the approximate time of the encounter and its duration.")
-                .lineLimit(nil)
             }
-            
+
             Spacer()
             
             VStack {

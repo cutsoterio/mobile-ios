@@ -27,7 +27,8 @@ struct GetPhoneCardView: View {
                 .padding(8)
             TextField("Enter phone number", text: $phoneNumber)
                 .textFieldStyle(RoundedBorderTextFieldStyle())
-            
+            Spacer()
+                .frame(height: 24)
             VStack {
                 VStack{
                     NavigationLink(destination: VerifyPhoneNumberCardView()) {
