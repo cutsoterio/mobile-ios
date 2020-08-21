@@ -92,6 +92,7 @@ struct LandingView: View {
                             Image(systemName: "person")
                         }
                         Text("To keep yourself and your family safe, wash your hands with running water for at least 20 seconds.")
+                            .lineLimit(nil)
                         Spacer()
                         HStack{
                             //Spacer()
@@ -130,7 +131,8 @@ struct LandingView: View {
                             Image(systemName: "person")
                         }
                         Text("It seems that you have not come into contact with someone who is COVID-19 positive.")
-                        .foregroundColor(.white)
+                            lineLimit(nil)
+                            .foregroundColor(.white)
                         Spacer()
                         HStack{
                             //Spacer()
@@ -184,7 +186,7 @@ struct LandingView: View {
                     .frame(maxWidth: .infinity)
                     .frame(height: 1)
                     .background(Color(red: 0.945, green: 0.945, blue: 0.941))
-                    .padding(.horizontal, 16)
+                    .padding(.horizontal, 8)
                 
                 NavigationLink(destination: TestingCentersView()) {
                     HStack{

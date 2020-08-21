@@ -11,7 +11,11 @@ import SwiftUI
 struct TestingCentersView: View {
     var body: some View {
         ScrollView(.vertical, showsIndicators: false){
-            Text("Hospitals")
+            List{
+                Text("Khaks")
+                Text("Putin")
+                Text("Gordons")
+            }
         }
         .padding()
         .navigationBarTitle(Text("Testing centers"), displayMode: .inline)
