@@ -9,16 +9,44 @@
 import SwiftUI
 
 struct HospitalsView: View {
+    
+    let hospitalHeading = ["Chamagamba Hospital", "Ruvimbo Hospital", "RujekoHospital"]
+    let hospitalDescription = ["Chamagamba Hospital", "Ruvimbo Hospital", "RujekoHospital"]
+    
     var body: some View {
-        ScrollView(.vertical, showsIndicators: false){
-            List{
-                Text("Khaks")
-                Text("Putin")
-                Text("Gordons")
+        
+        VStack{
+            HStack{
+               Text("Find all nearest hospitals.")
+                    //.font(.headline)
+                Spacer()
             }
+            .padding()
+            
+            List{
+                ForEach(0..<hospitalHeading.count){ hospitalHeading in
+                    HosptitalCard()
+                }
+            }
+            
+        }.navigationBarTitle(Text("Hospitals"), displayMode: .inline)
+        .background(Color(red: 0.945, green: 0.945, blue: 0.941))
+    }
+}
+
+struct HosptitalCard : View{
+    var body: some View{
+        HStack{
+            Image(systemName: "staroflife")
+            VStack(alignment: .leading){
+                Text("Heading")
+                    .font(.headline)
+                Text("Description")
+            }
+            Spacer()
+            Image(systemName: "chevron.right")
         }
-        .padding()
-        .navigationBarTitle(Text("Hospitals"), displayMode: .inline)
+        
     }
 }
 

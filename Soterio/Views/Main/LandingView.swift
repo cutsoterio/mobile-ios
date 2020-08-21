@@ -20,14 +20,14 @@ struct LandingView: View {
                     VStack(alignment: .leading, spacing: 8) {
                         HStack{
                             Text("Contact tracing activated")
-                            .font(.system(size: 24))
+                            .font(.headline)
                             Spacer()
-                            Image(systemName: "person")
+                            Image(systemName: "stop.circle")
                         }
                         Text("Thank you for joining us in the fight against COVID-19.")
                         HStack{
                             Spacer()
-                            Image(systemName: "person")
+                            Image(systemName: "questionmark.circle")
                         }
                     }
                     .padding(16)
@@ -49,9 +49,9 @@ struct LandingView: View {
                     VStack(alignment: .leading, spacing: 8) {
                         HStack{
                             Text("Upload my encounter log")
-                            .font(.system(size: 24))
+                            .font(.headline)
                             Spacer()
-                            Image(systemName: "person")
+                            Image(systemName: "xmark")
                         }
                         Text("Authorization from a Health official will be required.")
                         Spacer()
@@ -87,7 +87,7 @@ struct LandingView: View {
                     VStack(alignment: .leading, spacing: 8) {
                         HStack{
                             Text("Always wash your hands")
-                            .font(.system(size: 24))
+                            .font(.headline)
                             Spacer()
                             Image(systemName: "person")
                         }
@@ -125,13 +125,13 @@ struct LandingView: View {
                     VStack(alignment: .leading, spacing: 8) {
                         HStack{
                             Text("Great!")
-                            .font(.system(size: 24))
+                            .font(.headline)
                             .foregroundColor(.white)
                             Spacer()
                             Image(systemName: "person")
                         }
                         Text("It seems that you have not come into contact with someone who is COVID-19 positive.")
-                            lineLimit(nil)
+                            .lineLimit(nil)
                             .foregroundColor(.white)
                         Spacer()
                         HStack{
@@ -167,7 +167,6 @@ struct LandingView: View {
                            HStack{
                                VStack(alignment: .leading, spacing: 8){
                                    Text("Hospitals")
-                                       .font(.system(size: 24))
                                         .foregroundColor(.black)
                                }
                                Spacer()
@@ -179,14 +178,14 @@ struct LandingView: View {
                        .padding(8)
                        .frame(maxWidth: .infinity)
                     }
-                }
+                }.padding(.horizontal, 16)
                 
                 Text("")
                     .foregroundColor(Color.blue)
                     .frame(maxWidth: .infinity)
                     .frame(height: 1)
                     .background(Color(red: 0.945, green: 0.945, blue: 0.941))
-                    .padding(.horizontal, 8)
+                    .padding(.horizontal, 16)
                 
                 NavigationLink(destination: TestingCentersView()) {
                     HStack{
@@ -194,7 +193,6 @@ struct LandingView: View {
                             HStack{
                                 VStack(alignment: .leading, spacing: 8){
                                     Text("Testing centers")
-                                        .font(.system(size: 24))
                                      .foregroundColor(.black)
                                 }
                                 Spacer()
@@ -206,9 +204,10 @@ struct LandingView: View {
                         .padding(8)
                         .frame(maxWidth: .infinity)
                     }
-                }
+                }.padding(.horizontal, 16)
                 
             }.background(Color.white)
+                
             
             Text("")
         }
