@@ -45,6 +45,7 @@
 		F83B384C24ECA0D60004E155 /* UploadView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F83B384B24ECA0D60004E155 /* UploadView.swift */; };
 		F83B384E24ECA0EF0004E155 /* HospitalsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F83B384D24ECA0EF0004E155 /* HospitalsView.swift */; };
 		F83B385024ECA1010004E155 /* TestingCentersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F83B384F24ECA1010004E155 /* TestingCentersView.swift */; };
+		F858D4BD24F3318E0004F43F /* NewOnBoarding.swift in Sources */ = {isa = PBXBuildFile; fileRef = F858D4BC24F3318E0004F43F /* NewOnBoarding.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -114,6 +115,7 @@
 		F83B384B24ECA0D60004E155 /* UploadView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadView.swift; sourceTree = "<group>"; };
 		F83B384D24ECA0EF0004E155 /* HospitalsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HospitalsView.swift; sourceTree = "<group>"; };
 		F83B384F24ECA1010004E155 /* TestingCentersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestingCentersView.swift; sourceTree = "<group>"; };
+		F858D4BC24F3318E0004F43F /* NewOnBoarding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewOnBoarding.swift; sourceTree = "<group>"; };
 		FA3E33034FB081D0AB930610 /* Pods-SoterioTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SoterioTests.debug.xcconfig"; path = "Target Support Files/Pods-SoterioTests/Pods-SoterioTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -150,6 +152,7 @@
 			children = (
 				1FD70BA624E9220200FD0AFC /* OnBoardingCardView.swift */,
 				1F90B05B24EB0AF50027A5E7 /* OnboardingMainView.swift */,
+				F858D4BC24F3318E0004F43F /* NewOnBoarding.swift */,
 			);
 			path = OnBoarding;
 			sourceTree = "<group>";
@@ -677,6 +680,7 @@
 				1FD70BB024EABA8700FD0AFC /* VerifyPhoneNumberCardView.swift in Sources */,
 				1F9C8DF224EAF0810074F5C8 /* WebsocketsIndex.swift in Sources */,
 				1F395AA124EC0C0600CB9806 /* LandingView.swift in Sources */,
+				F858D4BD24F3318E0004F43F /* NewOnBoarding.swift in Sources */,
 				1F9C8DF024EAF0730074F5C8 /* RestIndex.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
